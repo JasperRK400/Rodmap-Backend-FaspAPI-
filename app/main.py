@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from app.model import RoadmapRequest
-from app.prompts import roadmap_prompt
+from app.prompt import roadmap_prompt
 from app.ai_client import get_ai_roadmap
 
 app = FastAPI()
